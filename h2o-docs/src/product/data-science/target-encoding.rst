@@ -91,7 +91,7 @@ In this example, we will be trying to predict ``survived`` using the popular tit
                                         x = encoded_columns, 
                                         y = "survived", 
                                         fold_column = "fold", 
-                                        data_leakage_handling = "k_fold", 
+                                        data_leakage_handling = "KFold", 
                                         blending = TRUE, 
                                         inflection_point = 3, 
                                         smoothing = 10, 
